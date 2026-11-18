@@ -26,10 +26,6 @@
       0%, 100% { opacity: 1; r: 4; }
       50% { opacity: 0.35; r: 6; }
     }
-    @keyframes scanline {
-      0% { transform: translateX(-100%); }
-      100% { transform: translateX(100%); }
-    }
     @keyframes dash {
       to { stroke-dashoffset: 0; }
     }
@@ -55,7 +51,7 @@
   <circle cx="42" cy="20" r="5" fill="#F59E0B" fill-opacity="0.8"/>
   <circle cx="60" cy="20" r="5" fill="#22C55E" fill-opacity="0.8"/>
 
-  <text x="86" y="24" class="mono" font-size="11" fill="#8B95A5" letter-spacing="0.8">sankalp@lemin-ai ~ // cpaas-telemetry-cluster:main</text>
+  <text x="86" y="24" class="mono" font-size="11" fill="#8B95A5" letter-spacing="0.8">sankalp@lemin-ai ~ // cpaas-kafka-cluster:main</text>
 
   <!-- Live Status Pill -->
   <rect x="708" y="10" width="152" height="20" rx="10" fill="#15803D" fill-opacity="0.18" stroke="#22C55E" stroke-opacity="0.35" stroke-width="1"/>
@@ -66,7 +62,7 @@
   <text x="36" y="74" class="mono" font-size="11" font-weight="600" fill="#22C55E" letter-spacing="1.8">SOFTWARE &amp; DEVOPS ENGINEER // ARCHITECT</text>
   <text x="36" y="114" class="sans" font-size="34" font-weight="800" fill="#F8FAFC" letter-spacing="-0.8">Sankalp Dev</text>
   <text x="36" y="140" class="sans" font-size="14" font-weight="500" fill="#94A3B8">Building High-Throughput RCS &amp; WhatsApp CPaaS Infrastructure @ <tspan fill="#E2E8F0" font-weight="700">Lemin AI</tspan></text>
-  <text x="36" y="162" class="sans" font-size="13" fill="#64748B">Ex-Co-Founder @ <tspan fill="#94A3B8" font-weight="600">Coders Crux</tspan>  ·  Cloud-Native Kubernetes, Docker, AWS &amp; Distributed Messaging</text>
+  <text x="36" y="162" class="sans" font-size="13" fill="#64748B">Ex-Co-Founder @ <tspan fill="#94A3B8" font-weight="600">Coders Crux</tspan>  ·  Kafka Event Streaming, Kubernetes, Docker &amp; AWS</text>
 
   <!-- Architecture Tags -->
   <g transform="translate(36, 184)">
@@ -76,11 +72,11 @@
     <rect x="142" y="0" width="144" height="26" rx="6" fill="#161B24" stroke="#262E3D" stroke-width="1"/>
     <text x="156" y="17" class="mono" font-size="11" fill="#E2E8F0">☸️ Kubernetes/AWS</text>
 
-    <rect x="296" y="0" width="128" height="26" rx="6" fill="#161B24" stroke="#262E3D" stroke-width="1"/>
-    <text x="310" y="17" class="mono" font-size="11" fill="#E2E8F0">🐳 Docker CI/CD</text>
+    <rect x="296" y="0" width="136" height="26" rx="6" fill="#161B24" stroke="#262E3D" stroke-width="1"/>
+    <text x="310" y="17" class="mono" font-size="11" fill="#E2E8F0">📡 Apache Kafka</text>
 
-    <rect x="434" y="0" width="134" height="26" rx="6" fill="#161B24" stroke="#262E3D" stroke-width="1"/>
-    <text x="448" y="17" class="mono" font-size="11" fill="#E2E8F0">🧠 AI &amp; RAG Flows</text>
+    <rect x="442" y="0" width="134" height="26" rx="6" fill="#161B24" stroke="#262E3D" stroke-width="1"/>
+    <text x="456" y="17" class="mono" font-size="11" fill="#E2E8F0">🧠 AI &amp; RAG Flows</text>
   </g>
 
   <!-- Right Column: Live Terminal / Telemetry Readout Box -->
@@ -90,16 +86,16 @@
     <line x1="0" y1="34" x2="236" y2="34" stroke="#1E232D" stroke-width="1"/>
 
     <text x="16" y="56" class="mono" font-size="11" fill="#8B95A5">Commits (25-26)</text>
-    <text x="168" y="56" class="mono" font-size="12" font-weight="700" fill="#4ADE80">2,410+</text>
+    <text x="164" y="56" class="mono" font-size="12" font-weight="700" fill="#4ADE80">2,410+</text>
 
     <text x="16" y="80" class="mono" font-size="11" fill="#8B95A5">Active Days</text>
-    <text x="168" y="80" class="mono" font-size="12" font-weight="700" fill="#F1F5F9">585 days</text>
+    <text x="164" y="80" class="mono" font-size="12" font-weight="700" fill="#F1F5F9">585 days</text>
 
     <text x="16" y="104" class="mono" font-size="11" fill="#8B95A5">Cluster SLA</text>
-    <text x="168" y="104" class="mono" font-size="12" font-weight="700" fill="#38BDF8">99.98%</text>
+    <text x="164" y="104" class="mono" font-size="12" font-weight="700" fill="#38BDF8">99.98%</text>
 
-    <text x="16" y="128" class="mono" font-size="11" fill="#8B95A5">DSA / LeetCode</text>
-    <text x="168" y="128" class="mono" font-size="12" font-weight="700" fill="#F59E0B">Top 8%</text>
+    <text x="16" y="128" class="mono" font-size="11" fill="#8B95A5">Event Stream</text>
+    <text x="164" y="128" class="mono" font-size="12" font-weight="700" fill="#F59E0B">Kafka/K8s</text>
   </g>
 
   <!-- Bottom Telemetry Wave -->
