@@ -14,41 +14,41 @@
 
   <!-- Cell 01 -->
   <g transform="translate(22, 24)">
-    <text x="0" y="12" class="mono" font-size="10" font-weight="600" fill="#64748B" letter-spacing="1.2">01 // CONTRIBUTION VELOCITY</text>
-    <text x="0" y="56" class="sans" font-size="32" font-weight="800" fill="#F8FAFC" letter-spacing="-1">2,410+</text>
-    <text x="0" y="80" class="mono" font-size="11" fill="#22C55E">● +94.6% consistency index</text>
+    <text x="0" y="12" class="mono" font-size="10" font-weight="600" fill="#64748B" letter-spacing="1.2">01 // BACKEND &amp; APIS</text>
+    <text x="0" y="56" class="sans" font-size="30" font-weight="800" fill="#F8FAFC" letter-spacing="-1">Py · Node</text>
+    <text x="0" y="80" class="mono" font-size="11" fill="#22C55E">● REST, Webhooks &amp; Workers</text>
     <rect x="0" y="102" width="176" height="6" rx="3" fill="#1A202C"/>
-    <rect x="0" y="102" width="162" height="6" rx="3" fill="#22C55E"/>
-    <text x="0" y="126" class="mono" font-size="10" fill="#8B95A5">585+ active days logged</text>
+    <rect x="0" y="102" width="164" height="6" rx="3" fill="#22C55E"/>
+    <text x="0" y="126" class="mono" font-size="10" fill="#8B95A5">Django · FastAPI · Flask · Express</text>
   </g>
 
   <!-- Cell 02 -->
   <g transform="translate(242, 24)">
-    <text x="0" y="12" class="mono" font-size="10" font-weight="600" fill="#64748B" letter-spacing="1.2">02 // MESSAGING &amp; CPAAS</text>
-    <text x="0" y="56" class="sans" font-size="32" font-weight="800" fill="#F8FAFC" letter-spacing="-1">RCS · WABA</text>
-    <text x="0" y="80" class="mono" font-size="11" fill="#38BDF8">● Multi-tenant carrier queues</text>
+    <text x="0" y="12" class="mono" font-size="10" font-weight="600" fill="#64748B" letter-spacing="1.2">02 // EVENT STREAMING</text>
+    <text x="0" y="56" class="sans" font-size="30" font-weight="800" fill="#F8FAFC" letter-spacing="-1">Kafka · MQ</text>
+    <text x="0" y="80" class="mono" font-size="11" fill="#F59E0B">● Distributed event brokers</text>
     <rect x="0" y="102" width="176" height="6" rx="3" fill="#1A202C"/>
-    <rect x="0" y="102" width="154" height="6" rx="3" fill="#38BDF8"/>
-    <text x="0" y="126" class="mono" font-size="10" fill="#8B95A5">Webhooks · Flow Builder · RAG</text>
+    <rect x="0" y="102" width="156" height="6" rx="3" fill="#F59E0B"/>
+    <text x="0" y="126" class="mono" font-size="10" fill="#8B95A5">Pub/Sub · DLQ · Rate Limiting</text>
   </g>
 
   <!-- Cell 03 -->
   <g transform="translate(462, 24)">
-    <text x="0" y="12" class="mono" font-size="10" font-weight="600" fill="#64748B" letter-spacing="1.2">03 // CLOUD &amp; DEVOPS</text>
-    <text x="0" y="56" class="sans" font-size="32" font-weight="800" fill="#F8FAFC" letter-spacing="-1">K8s · AWS</text>
-    <text x="0" y="80" class="mono" font-size="11" fill="#A855F7">● Automated CI/CD pipelines</text>
+    <text x="0" y="12" class="mono" font-size="10" font-weight="600" fill="#64748B" letter-spacing="1.2">03 // DATA &amp; STORAGE</text>
+    <text x="0" y="56" class="sans" font-size="30" font-weight="800" fill="#F8FAFC" letter-spacing="-1">PG · Redis</text>
+    <text x="0" y="80" class="mono" font-size="11" fill="#38BDF8">● ACID ledgers &amp; caching</text>
     <rect x="0" y="102" width="176" height="6" rx="3" fill="#1A202C"/>
-    <rect x="0" y="102" width="158" height="6" rx="3" fill="#A855F7"/>
-    <text x="0" y="126" class="mono" font-size="10" fill="#8B95A5">Docker · GitHub Actions · Linux</text>
+    <rect x="0" y="102" width="158" height="6" rx="3" fill="#38BDF8"/>
+    <text x="0" y="126" class="mono" font-size="10" fill="#8B95A5">PostgreSQL · MySQL · MongoDB</text>
   </g>
 
   <!-- Cell 04 -->
   <g transform="translate(682, 24)">
-    <text x="0" y="12" class="mono" font-size="10" font-weight="600" fill="#64748B" letter-spacing="1.2">04 // EVENT STREAMING</text>
-    <text x="0" y="56" class="sans" font-size="30" font-weight="800" fill="#F8FAFC" letter-spacing="-1">Kafka · Py</text>
-    <text x="0" y="80" class="mono" font-size="11" fill="#F59E0B">● Distributed event brokers</text>
+    <text x="0" y="12" class="mono" font-size="10" font-weight="600" fill="#64748B" letter-spacing="1.2">04 // CLOUD &amp; DEVOPS</text>
+    <text x="0" y="56" class="sans" font-size="30" font-weight="800" fill="#F8FAFC" letter-spacing="-1">K8s · AWS</text>
+    <text x="0" y="80" class="mono" font-size="11" fill="#A855F7">● Container orchestration</text>
     <rect x="0" y="102" width="176" height="6" rx="3" fill="#1A202C"/>
-    <rect x="0" y="102" width="152" height="6" rx="3" fill="#F59E0B"/>
-    <text x="0" y="126" class="mono" font-size="10" fill="#8B95A5">Python · JavaScript · Redis</text>
+    <rect x="0" y="102" width="160" height="6" rx="3" fill="#A855F7"/>
+    <text x="0" y="126" class="mono" font-size="10" fill="#8B95A5">Docker · GitHub Actions · Nginx</text>
   </g>
 </svg>
