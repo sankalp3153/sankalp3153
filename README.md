@@ -73,7 +73,7 @@ current_systems:
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=sankalp3153&theme=tokyonight&hide_border=true&background=0D1015&ring=22C55E&fire=4ADE80&currStreakLabel=22C55E" width="38%" alt="GitHub Streak" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sankalp3153&theme=github_dark" width="30%" alt="GitHub Stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sankalp3153&theme=github_dark" width="30%" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sankalp3153&theme=github_dark&exclude=Java,TypeScript,C,C++" width="30%" alt="Top Languages" />
 </p>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=sankalp3153&theme=tokyo-night&hide_border=true&bg_color=0D1015&color=94A3B8&line=22C55E&point=4ADE80&area=true" width="100%" alt="Contribution Activity Graph" />
