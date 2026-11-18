@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 175" width="100%" height="175">
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Plus Jakarta Sans', 'Segoe UI', Roboto, sans-serif; }
+  </style>
+
+  <!-- Outer Frame -->
+  <rect width="880" height="175" rx="12" fill="#0D1015" stroke="#222834" stroke-width="1.5"/>
+
+  <!-- Vertical Dividers -->
+  <line x1="220" y1="0" x2="220" y2="175" stroke="#1E2430" stroke-width="1"/>
+  <line x1="440" y1="0" x2="440" y2="175" stroke="#1E2430" stroke-width="1"/>
+  <line x1="660" y1="0" x2="660" y2="175" stroke="#1E2430" stroke-width="1"/>
+
+  <!-- Cell 01 -->
+  <g transform="translate(22, 24)">
+    <text x="0" y="12" class="mono" font-size="10" font-weight="600" fill="#64748B" letter-spacing="1.2">01 // CONTRIBUTION VELOCITY</text>
+    <text x="0" y="56" class="sans" font-size="32" font-weight="800" fill="#F8FAFC" letter-spacing="-1">2,410+</text>
+    <text x="0" y="80" class="mono" font-size="11" fill="#22C55E">● +94.6% consistency index</text>
+    <rect x="0" y="102" width="176" height="6" rx="3" fill="#1A202C"/>
+    <rect x="0" y="102" width="162" height="6" rx="3" fill="#22C55E"/>
+    <text x="0" y="126" class="mono" font-size="10" fill="#8B95A5">585+ active days logged</text>
+  </g>
+
+  <!-- Cell 02 -->
+  <g transform="translate(242, 24)">
+    <text x="0" y="12" class="mono" font-size="10" font-weight="600" fill="#64748B" letter-spacing="1.2">02 // MESSAGING &amp; CPAAS</text>
+    <text x="0" y="56" class="sans" font-size="32" font-weight="800" fill="#F8FAFC" letter-spacing="-1">RCS · WABA</text>
+    <text x="0" y="80" class="mono" font-size="11" fill="#38BDF8">● Multi-tenant carrier queues</text>
+    <rect x="0" y="102" width="176" height="6" rx="3" fill="#1A202C"/>
+    <rect x="0" y="102" width="154" height="6" rx="3" fill="#38BDF8"/>
+    <text x="0" y="126" class="mono" font-size="10" fill="#8B95A5">Webhooks · Flow Builder · RAG</text>
+  </g>
+
+  <!-- Cell 03 -->
+  <g transform="translate(462, 24)">
+    <text x="0" y="12" class="mono" font-size="10" font-weight="600" fill="#64748B" letter-spacing="1.2">03 // CLOUD &amp; DEVOPS</text>
+    <text x="0" y="56" class="sans" font-size="32" font-weight="800" fill="#F8FAFC" letter-spacing="-1">K8s · AWS</text>
+    <text x="0" y="80" class="mono" font-size="11" fill="#A855F7">● Automated CI/CD pipelines</text>
+    <rect x="0" y="102" width="176" height="6" rx="3" fill="#1A202C"/>
+    <rect x="0" y="102" width="158" height="6" rx="3" fill="#A855F7"/>
+    <text x="0" y="126" class="mono" font-size="10" fill="#8B95A5">Docker · Jenkins · Linux · Nginx</text>
+  </g>
+
+  <!-- Cell 04 -->
+  <g transform="translate(682, 24)">
+    <text x="0" y="12" class="mono" font-size="10" font-weight="600" fill="#64748B" letter-spacing="1.2">04 // ALGORITHMS &amp; DSA</text>
+    <text x="0" y="56" class="sans" font-size="32" font-weight="800" fill="#F8FAFC" letter-spacing="-1">Java · Py</text>
+    <text x="0" y="80" class="mono" font-size="11" fill="#F59E0B">● Graphs, DP &amp; Trees</text>
+    <rect x="0" y="102" width="176" height="6" rx="3" fill="#1A202C"/>
+    <rect x="0" y="102" width="150" height="6" rx="3" fill="#F59E0B"/>
+    <text x="0" y="126" class="mono" font-size="10" fill="#8B95A5">50+ core pattern templates</text>
+  </g>
+</svg>
